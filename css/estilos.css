@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(#fff, #000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#asd{
+    background: radial-gradient(circle,rgb(88, 51, 255, .5),rgb(163, 54, 91,.5));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 2px;
+    margin: auto;
+    text-align: center;
+
+}
+
+label{
+    padding: 1em;
+}
+
+#porfile{
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: px 5px 5px #000;
+}
+
